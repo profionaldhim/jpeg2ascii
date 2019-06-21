@@ -21,13 +21,15 @@ echo ""
 echo -e $red "insert path image ..."
 read -p "path image >>>" path
 echo -e $green
+echo -e $red "Please Insert the width default 40 "
+echo ""
+read -p "insert y or n please >>" wid
+
 echo -e $red "Do you want convert image to ascii ? "
 echo ""
 read -p "insert y or n please >>" inp
 
-echo -e $red "Please Insert the width default 40 "
-echo ""
-read -p "insert y or n please >>" wid
+
 if [ $inp = y ]
 then
 jp2a --width=$wid $path
