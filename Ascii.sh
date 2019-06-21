@@ -27,7 +27,7 @@ read -p "insert y or n please >>" wid
 
 echo -e $red "Do you want convert image to ascii ? "
 echo ""
-read -p "insert y or n please >>" inp
+read -p "insert width or n please >>" inp
 
 
 if [ $inp = y ]
