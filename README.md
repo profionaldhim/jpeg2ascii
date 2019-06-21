@@ -4,5 +4,6 @@ I made this tool to all developer bash script
 to install jpeg2ascii
 git clone https://github.com/profionaldhim/jpeg2ascii
 cd jpeg2ascii
-chmod +x Ascii.sh
+chmod +x Ascii.sh install.sh
+bash install.sh
 bash Ascii.sh
